@@ -104,3 +104,35 @@ class Student extends Person {
         console.log(`${pm.name} debugs ${student.name}'s code on ${subject}`)
     }
 }
+
+  //Instructors
+
+  const Jackie = new Instructor ({
+    name: 'Jackie',
+    age: 30, 
+    location: 'Bali',
+    gender: 'Female',
+    specialty: "JavaScript",
+    favLanguage: "Ruby",
+    catchPhrase: "Jackie Jackie Jackie Jackie!"
+});
+
+const Tati = new Instructor ({
+    name: 'Tati',
+    age: 36, 
+    location:'Los Angelos',
+    gender: 'Female',
+    specialty: "React",
+    favLanguage: "Javascript",
+    catchPhrase: "She sells seashells by the seashore"
+});
+
+const Nikki = new Instructor ({
+    name: 'Nikki',
+    age:  24, 
+    location: 'Germany',
+    gender: 'Female',
+    specialty: "Django",
+    favLanguage: "PhP",
+    catchPhrase: "C'est une belle journee"
+});
