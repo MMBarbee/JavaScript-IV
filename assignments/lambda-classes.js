@@ -78,3 +78,4 @@ class Student extends Person {
         console.log(`${student.name} has begun sprint challenge on ${subject}`)
     }
 }
+
