@@ -165,3 +165,41 @@ const Ronald = new ProjectManagers ({
     gradClassName: "CS14",
     favInstructor: "Rudolph"
 })
+
+   //Students
+
+   const Drake = new Student ({
+    name: 'Drake',
+    age: 36, 
+    location: 'New York',
+    gender: 'Male',
+    previousBackground: "Acting and rapping",
+    favSubjects: ["JavaScript", "HTML"]
+})
+
+const MeekMill = new Person ({
+    name: 'MeekMill',
+    age: 34, 
+    location: 'Philly',
+    gender: 'Male',
+    previousBackground: "Hustling and music",
+    favSubjects: ["CSS", "HTML"]
+})
+
+const NipseyHustle = new Person ({
+    name: 'NipseyHustle',
+    age: 32, 
+    location: 'Los Angelos',
+    gender: 'Male',
+    previousBackground: "Music and business",
+    favSubjects: ["Python", "Ruby"]
+})
+
+const Tupac = new Person ({
+    name: 'Tupac',
+    age: 25, 
+    location: 'Cali',
+    gender: 'Male',
+    previousBackground: "Acting & rapping",
+    favSubjects: ["JavaScript", "C"]
+})
