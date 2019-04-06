@@ -31,3 +31,16 @@ class GameObject{
     }
 
   }
+
+  class Humanoid extends CharacterStats {
+    constructor (about){
+        super(about);
+        this.team = about.team;
+        this.weapons = about.weapons;
+        this.language = about.language;
+    }
+
+    greet() {
+        return `${this.name} offers a greeting in ${this.language}.`;
+    }
+  }
