@@ -203,3 +203,6 @@ const Tupac = new Person ({
     previousBackground: "Acting & rapping",
     favSubjects: ["JavaScript", "C"]
 })
+
+//Invoke
+Jackie.grade(Tupac, 'JavaScript');
