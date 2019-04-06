@@ -136,3 +136,32 @@ const Nikki = new Instructor ({
     favLanguage: "PhP",
     catchPhrase: "C'est une belle journee"
 });
+
+   //PMs
+
+   const Gabe = new ProjectManagers ({
+    name: 'Gabe',
+    age: 23, 
+    location: 'Cali',
+    gender: 'Male',
+    gradClassName: "CS12",
+    favInstructor: "Comet"
+});
+
+const Lola = new ProjectManagers ({
+    name: 'Lola',
+    age: 24, 
+    location: 'Virginia',
+    gender: 'Female',
+    gradClassName: "CS14",
+    favInstructor: "Dasher"
+});
+
+const Ronald = new ProjectManagers ({
+    name = 'Ronald',
+    age = 22, 
+    location = 'West Coast',
+    gender = 'Male',
+    gradClassName: "CS14",
+    favInstructor: "Rudolph"
+})
